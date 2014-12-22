@@ -1,3 +1,3 @@
-<?php 
-	echo "Home function";
+<?php
+echo "string";
 ?>
