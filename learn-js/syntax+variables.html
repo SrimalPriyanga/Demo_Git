@@ -8,11 +8,11 @@
 <p id="demo1"></p>
 <p id="demo2"></p>
 <script type="text/javascript">
-	var count, term='Term', demo ="demo";
+	var count=0, term='Term', demo ="demo";
 	for (var i = 0; i < 10; i++) {
-		document.getElementById('demo1').innerHTML = count +"This is "+term +i;
+		document.getElementById('demo1').innerHTML = count +"This is "+term +i+"<br />";
 		console.log(count +"This is "+term +i);
-		count =+ 1;
+		count++;
 	};
 </script>
 </body>
